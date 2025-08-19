@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar same for all pages -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Stock Image Purchase</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="vendor_gallery.html">Vendor Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vendor_management.html">Vendor Management</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Here we create for 1st image only (static page) -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Item Details — Forest Landscape</h2>
+
+        <section class="p-4 rounded-4 shadow mx-3" style="background-color: rgba(0,0,0,0.05);">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/Nature_Image_Categories.jpg" class="img-fluid rounded shadow"
+                        alt="Forest Landscape" />
+                </div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold">Forest Landscape</h3>
+                    <p class="text-muted">Category: Nature</p>
+                    <p class="fs-4 fw-bold">$12.00</p>
+                    <p>A beautiful forest landscape capturing the serenity of nature. Perfect for backgrounds, websites,
+                        and presentations.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="checkout.html" class="btn btn-success btn-lg">Add to Cart</a>
+                        <a href="vendor_gallery.html" class="btn btn-secondary btn-lg">Back to Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer same for all pages -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Stock Image Purchase. All rights reserved.</p>
+            <p class="small mb-0">Designed and developed by Vidhin Patel.</p>
+            <p class="small">Contact: vidhin1208@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

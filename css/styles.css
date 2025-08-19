@@ -1,0 +1,34 @@
+.img-hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.img-hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Featured card tweaks */
+.featured-card {
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Featured card hover */
+.featured-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+}
+
+/* Card title color and weight */
+.featured-card .card-title {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+/* button outline hover */
+.btn-custom-outline:hover {
+    background-color: #0d6efd; 
+    color: white !important;
+    border-color: #0d6efd !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation bar same for all pages -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Stock Image Purchase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Vendor Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vendor_management.html">Vendor Management</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Vendor Gallery - Stock Images</h1>
+        <section class="p-4 rounded shadow-sm bg-light">
+            <!-- Categories -->
+            <div class="d-flex justify-content-center gap-2 flex-wrap mb-4">
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">All</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Nature</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Business</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Food</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Technology</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Travel</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Education</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Animals</button>
+                <button
+                    class="btn btn-outline-primary btn-lg text-dark border-dark px-4 py-1 btn-custom-outline">Sports</button>
+            </div>
+
+            <div class="row g-4">
+                <!-- Example: Nature -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/Nature_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Forest Landscape">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Forest Landscape</h5>
+                            <p class="text-muted mb-1">Category: Nature</p>
+                            <p class="fw-bold mb-3">$12.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Business -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="img/Business_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Business Meeting">
+                        <div class="card-body d-flex flex-column">
+                            <h5>Corporate Meeting</h5>
+                            <p class="text-muted mb-1">Category: Business</p>
+                            <p class="fw-bold mb-3">$15.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Food -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Food_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Delicious Food" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Delicious Food</h5>
+                            <p class="card-text text-muted mb-1">Category: Food</p>
+                            <p class="card-text fw-bold mb-3">$8.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Technology -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Technology_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Modern Technology" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Modern Technology</h5>
+                            <p class="card-text text-muted mb-1">Category: Technology</p>
+                            <p class="card-text fw-bold mb-3">$20.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Travel -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Travel_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Mountain Travel" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mountain Travel</h5>
+                            <p class="card-text text-muted mb-1">Category: Travel</p>
+                            <p class="card-text fw-bold mb-3">$18.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Education -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Education_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Education Seminar" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Book shelf</h5>
+                            <p class="card-text text-muted mb-1">Category: Education</p>
+                            <p class="card-text fw-bold mb-3">$10.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Animals -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Animal_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Cute Puppy" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">African Lion</h5>
+                            <p class="card-text text-muted mb-1">Category: Animals</p>
+                            <p class="card-text fw-bold mb-3">$7.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Sports -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Sports_Image_Categories.jpg" class="card-img-top img-hover-scale" alt="Soccer Match" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Marathon race</h5>
+                            <p class="card-text text-muted mb-1">Category: Sports</p>
+                            <p class="card-text fw-bold mb-3">$14.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Fitness -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Fitness_category.jpg" class="card-img-top img-hover-scale" alt="Fitness Workout" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Fitness Workout</h5>
+                            <p class="card-text text-muted mb-1">Category: Fitness</p>
+                            <p class="card-text fw-bold mb-3">$11.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Animals -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Tiger_category.jpg" class="card-img-top img-hover-scale" alt="Wild Tiger" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Wild Tiger</h5>
+                            <p class="card-text text-muted mb-1">Category: Animals</p>
+                            <p class="card-text fw-bold mb-3">$16.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Travel -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Sunset_Beach_Category.jpg" class="card-img-top img-hover-scale" alt="Beach Sunset" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Beach Sunset</h5>
+                            <p class="card-text text-muted mb-1">Category: Travel</p>
+                            <p class="card-text fw-bold mb-3">$19.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example: Architecture -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Pyramid_Architecture.jpg" class="card-img-top img-hover-scale" alt="Modern Architecture" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Architecture</h5>
+                            <p class="card-text text-muted mb-1">Category: Architecture</p>
+                            <p class="card-text fw-bold mb-3">$22.00</p>
+                            <a href="items_details.html" class="btn btn-primary mb-2">View Details</a>
+                            <a href="checkout.html" class="btn btn-success shadow-sm">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer same for all pages -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-1">&copy; 2025 Stock Image Purchase. All rights reserved.</p>
+        <p class="small mb-0">Designed and developed by Vidhin Patel.</p>
+        <p class="small">Contact: vidhin1208@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
